@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  margin: 5;
+  padding: 5;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -9,4 +10,34 @@ body {
 
 .App {
   text-align: center;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.VideoView {
+  margin-bottom: 10px;
+}
+#upvotes,
+#downvotes {
+  font-size: 0.85em;
+  font-weight: bold;
+  padding: 3px;
+  margin: 3px 10px;
+}
+#iframe {
+  width: 640px;
+  height: 420px;
+}
+.VideoComments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.commentsShown {
+  font-size: 1em;
 }
